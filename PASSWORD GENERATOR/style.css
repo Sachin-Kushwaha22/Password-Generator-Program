@@ -1,0 +1,52 @@
+
+.container{
+    
+    border: solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px black;
+    width: 30vw;
+    height:60vh ;
+    margin:100px auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: steelblue;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: teal;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#sizeofpass{
+    max-width: 100px;
+    font-family: cursive;
+    font-weight: bolder;
+    border: solid 1px;
+    margin: 20px;
+    text-align: center;
+    color: teal;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+#size{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+#password{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+}

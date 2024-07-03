@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="container">
+        <h1>GENERATE PASSWORD</h1>
+        <label id="size" for="sizeofpass">Size of Password : </label>
+        <input type="number" id="sizeofpass" value="1" min="1"><br>
+
+        <input type="radio"  id="lowercase"><label for="lowercase">INCLUED SMALL LETTERS</label><br>
+        
+        <input type="radio"  id="uppercase"><label for="uppercase">INCLUED CAPITAL LETTERS</label><br>
+        
+        <input type="radio"  id="number"><label for="number">INCLUED NUMBERS</label><br>
+        
+        <input type="radio"  id="symbol"><label for="symbol">INCLUED SYMBOLS</label><br>
+        
+        <button id="button" type="button" onclick="generatePass()">GENERATE</button>
+        <p id="password"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
